@@ -1,0 +1,10 @@
+{
+  "name": "BPM (Tauri + React + Python)",
+  "install": "bash ./.cursor/install.sh",
+  "terminals": [
+    {
+      "name": "tauri-dev",
+      "command": "DISPLAY=:1 WEBKIT_DISABLE_COMPOSITING_MODE=1 WEBKIT_DISABLE_DMABUF_RENDERER=1 LIBGL_ALWAYS_SOFTWARE=1 npm run tauri:dev"
+    }
+  ]
+}
